@@ -1,0 +1,1 @@
+marca=a, modello=a, cilindrata=1230, alimentazione=DIESEL, colore=a, velocita max=143

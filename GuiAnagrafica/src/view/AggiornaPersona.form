@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblluogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblelicerca" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblnome" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcognome" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbldata" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsesso" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="radiofemmina" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioaltro" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="textnome" alignment="0" pref="196" max="32767" attributes="0"/>
+                          <Component id="textcognome" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textdata" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textluogo" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="radiomaschio" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnAggiorna" min="-2" pref="82" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="textcerca" min="-2" pref="152" max="-2" attributes="0"/>
+                              <EmptySpace pref="99" max="32767" attributes="0"/>
+                              <Component id="btncerca" min="-2" pref="69" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lbltitleaggiorna" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="lbltitleaggiorna" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblelicerca" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textcerca" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btncerca" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblnome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textnome" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblcognome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textcognome" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbldata" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textdata" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblluogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textluogo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblsesso" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radioaltro" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="radiomaschio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAggiorna" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="radiofemmina" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblsesso">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sesso :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAggiorna">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aggiorna"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAggiornaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radioaltro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Altro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radiofemmina">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Femmina"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radiomaschio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maschio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textnome">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textcerca">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textluogo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textdata">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textcognome">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblelicerca">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cerca per id:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btncerca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cerca"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncercaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbltitleaggiorna">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Aggiorna"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblnome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nome :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcognome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cognome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldata">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Data di nascita"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblluogo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Luogo di nascita"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

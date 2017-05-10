@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="256" max="-2" attributes="0"/>
+              <Component id="lbltitleStampa" min="-2" pref="96" max="-2" attributes="0"/>
+              <EmptySpace pref="264" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="radioElettrica" min="-2" max="-2" attributes="0"/>
+                  <Component id="radiometano" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblCilindrata" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblelicerca" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblmarca" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblcognome" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblcolore" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAlimentazione" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="radiogpl" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="radiobenz" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="textmarca" alignment="0" pref="196" max="32767" attributes="0"/>
+                              <Component id="textmodello" alignment="0" max="32767" attributes="0"/>
+                              <Component id="textColore" alignment="0" max="32767" attributes="0"/>
+                              <Component id="textcilindrata" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="124" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="radiodiesel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnStampa" min="-2" pref="82" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="textcerca" min="-2" pref="152" max="-2" attributes="0"/>
+                              <EmptySpace pref="112" max="32767" attributes="0"/>
+                              <Component id="btncerca" min="-2" pref="69" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbltitleStampa" min="-2" pref="47" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+              <Component id="radiometano" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="radioElettrica" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="97" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblelicerca" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textcerca" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btncerca" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblmarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textmarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblcognome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textmodello" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblcolore" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textColore" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblCilindrata" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textcilindrata" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAlimentazione" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="radiobenz" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="radiodiesel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnStampa" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="radiogpl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbltitleStampa">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Stampa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmarca">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marca :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radiogpl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GPL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcognome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modello:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radiodiesel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diesel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcolore">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Colore:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textmarca">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCilindrata">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cilindrata:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textcerca">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textcilindrata">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textColore">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textmodello">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblelicerca">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cerca per id:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAlimentazione">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Alimentazione"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btncerca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cerca"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncercaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnStampa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stampa"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStampaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radiobenz">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Benzina"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radiometano">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Metano"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="radioElettrica">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Elettrica"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
